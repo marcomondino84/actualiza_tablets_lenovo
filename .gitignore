@@ -1,0 +1,24 @@
+# Archivos pesados o descargables
+/tools/platform-tools/
+/tools/usb_driver/
+*.zip
+*.img
+*.png
+
+# Firmware binarios (descargados por descargar-artefactos.ps1)
+/firmware/recovery/*
+!/firmware/recovery/.gitkeep
+/firmware/rom/*
+!/firmware/rom/.gitkeep
+/firmware/gapps/*
+!/firmware/gapps/.gitkeep
+/firmware/backups/*
+!/firmware/backups/.gitkeep
+/firmware/patcher_extracted/
+
+# Scripts temporales
+check-*.ps1
+fetch-*.ps1
+list-*.ps1
+read-*.ps1
+get-*.ps1
