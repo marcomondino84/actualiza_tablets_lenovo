@@ -1,0 +1,277 @@
+{
+	"modelVersion": 1,
+	"rmDev": false,
+	"windowWidth": 0,
+	"launchCounter": 61,
+	"powerSavingMode": 1,
+	"apiRestPort": 8080,
+	"apiOscEnable": false,
+	"windowX": 0,
+	"autoRecon": true,
+	"uiScale": 1.0,
+	"mixerHistory": {
+		"mixers": [{
+			"name": "",
+			"search": true,
+			"mixAccess": [-1],
+			"consoleId": 2,
+			"fav": false,
+			"hostname": "",
+			"connection": {
+
+			}
+		}]
+	},
+	"allowDifferentSubnet": false,
+	"closeConfirm": true,
+	"autostartConsoleId": -1,
+	"apiRestEnable": false,
+	"busProcessing": false,
+	"windowY": 0,
+	"busFader": true,
+	"feat": {
+		"rm": "1"
+	},
+	"windowSettings": {
+		"meteringWindow": false,
+		"windows": {
+
+		},
+		"channelProcessingWindow": false
+	},
+	"apiOscPort": 3000,
+	"userAppSettings": {
+		"modelVersion": 8,
+		"showPeqInfoDialog": true,
+		"usbMidi": 0,
+		"showFdrMeterbridge": true,
+		"peqPinchRatios": 4,
+		"screenMode": 1,
+		"processingSize": {
+			"fullscreen": [true,false]
+		},
+		"fxTapPopup": false,
+		"fxOrient": 0,
+		"didRunSetupWizard": true,
+		"useLayersForMeterBridge": true,
+		"2fdtAction": true,
+		"channelStrip": {
+			"items": [{
+				"height": 30.046947,
+				"extra": {
+					"items": 20
+				},
+				"heightP": 0.045943532,
+				"id": "info",
+				"disableFill": false
+			},{
+				"height": 40.0,
+				"extra": {
+					"ui": {
+						"minValue": 0.0,
+						"lyP": 0.0,
+						"lheight": 0,
+						"vsc": 0,
+						"uuid": "764739a5-770f-435b-96a9-6f52b758ed6a",
+						"posX": 0.0,
+						"tSizeDp": 8,
+						"pxP": 0.0,
+						"textFormat": 0,
+						"pheight": 0,
+						"v": 2,
+						"pwidth": 0,
+						"px": 0,
+						"posY": 0.0,
+						"label": "48v",
+						"lx": 0,
+						"ly": 0,
+						"type": "",
+						"py": 0,
+						"sClass": "red",
+						"pheightP": 0.0,
+						"behave": 0,
+						"height": 0.0,
+						"pwidthP": 0.0,
+						"showLabel": true,
+						"lxP": 0.0,
+						"tpos": 0,
+						"lwidth": 0,
+						"lwidthP": 0.0,
+						"locked": false,
+						"pyP": 0.0,
+						"width": 0.0,
+						"margin": 0,
+						"maxValue": 1.0,
+						"lheightP": 0.0
+					},
+					"actionSlots": [{
+						"key": "click",
+						"actions": {
+							"actions": []
+						}
+					},{
+						"key": "longClick",
+						"actions": {
+							"actions": {
+								"enable": true,
+								"boolMode": 0,
+								"SoF": false,
+								"key": "chs",
+								"path": "headamp.+48v",
+								"uuid": "b85ee28b-4fd9-4855-af77-d23383e6b44e",
+								"col": -1,
+								"invertOutput": false,
+								"lo": null
+							}
+						}
+					},{
+						"key": "touch",
+						"actions": {
+							"actions": []
+						}
+					},{
+						"key": "momentary",
+						"actions": {
+							"actions": []
+						}
+					},{
+						"key": "color",
+						"actions": {
+							"actions": []
+						}
+					}]
+				},
+				"heightP": 0.045943532,
+				"id": "cBtn",
+				"disableFill": false
+			},{
+				"height": 57.0,
+				"extra": {
+					"c": -1,
+					"lc": -1
+				},
+				"heightP": 0.09661473,
+				"id": "chBtn",
+				"disableFill": false
+			},{
+				"height": 40.0,
+				"extra": {
+
+				},
+				"heightP": 0.0,
+				"id": "mute",
+				"disableFill": false
+			},{
+				"height": 30.000002,
+				"extra": {
+					"knobLongClick": -1,
+					"knobClick": -1,
+					"knobRatios": -1,
+					"knobDoubleClick": -1
+				},
+				"heightP": 0.0,
+				"id": "pan",
+				"disableFill": false
+			},{
+				"height": 160.0,
+				"extra": {
+					"mPos": 0,
+					"grD": true,
+					"faderTouch": -1,
+					"grG": false,
+					"faderDoubleTap": -1,
+					"grp": false
+				},
+				"heightP": 0.3,
+				"id": "fader",
+				"disableFill": false
+			},{
+				"height": 40.0,
+				"extra": {
+
+				},
+				"heightP": 0.0,
+				"id": "solo",
+				"disableFill": false
+			}],
+			"autoLayout": false,
+			"slider": {
+				"knobLongClick": 1,
+				"knobClick": 0,
+				"knobRatios": 4,
+				"knobDoubleClick": 2
+			},
+			"fader": {
+				"faderDoubleTap": 0,
+				"faderTouch": 0
+			},
+			"chBtn": {
+				"lc": 2,
+				"c": 1
+			},
+			"autoResizeHiddenItems": false
+		},
+		"showDynamicsTimeline": true,
+		"chColorFaderKnob": false,
+		"reGain": {
+			"cpUseRg": true,
+			"adjustGate": true,
+			"adjustComp": true,
+			"sendFilter": 1,
+			"adjustMain": true,
+			"adjustAuxMain": true
+		},
+		"panStyle": 0,
+		"ffR": 2,
+		"sofFaderSlot": true,
+		"hlSelCh": false,
+		"muteForSends": false,
+		"ffE": true,
+		"chColorFaderSlot": false,
+		"flashingSendsOnFader": true,
+		"meterDecay": 60,
+		"showSoFMixList": true,
+		"showMeterbridge": false,
+		"meteringType": 0,
+		"rta": {
+			"style": 0,
+			"rtaAveraging": 1,
+			"rtaO": 0.0
+		},
+		"sofBg": false,
+		"appLink": {
+			"name": "unnamed",
+			"enable": false,
+			"group": "default",
+			"sendChSelect": false,
+			"sendSof": false
+		},
+		"knobSettings": {
+			"knobLongClick": 1,
+			"knobClick": 0,
+			"knobRatios": 4,
+			"knobDoubleClick": 2
+		},
+		"defaultChannelsPerLayer": 17,
+		"onAsMute": false,
+		"chSpill": {
+			"includeMain": false,
+			"enabled": false,
+			"placement": 0
+		},
+		"efLvl": true,
+		"useLayersForChannelSwitching": false,
+		"sofFaderKnob": true,
+		"peakHoldMs": 2000,
+		"mE": true,
+		"soFmixMute": true,
+		"lockOrientation": 0,
+		"autosaveLayer": true,
+		"meteringStyle": 1,
+		"themeName": "unnamed.css"
+	},
+	"windowHeight": 0,
+	"updateBranch": 0,
+	"skipConsoleSync": false,
+	"scrollMode": 0
+}

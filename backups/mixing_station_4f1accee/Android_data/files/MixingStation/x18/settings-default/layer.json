@@ -1,0 +1,319 @@
+{
+	"layers": [{
+		"visible": true,
+		"name": "Ch/Aux",
+		"items": [{
+			"type": 0,
+			"channel": {
+				"type": 0,
+				"offset": 0
+			},
+			"mixID": -99
+		},{
+			"type": 0,
+			"channel": {
+				"type": 0,
+				"offset": 1
+			},
+			"mixID": -99
+		},{
+			"type": 0,
+			"channel": {
+				"type": 0,
+				"offset": 2
+			},
+			"mixID": -99
+		},{
+			"type": 0,
+			"channel": {
+				"type": 0,
+				"offset": 3
+			},
+			"mixID": -99
+		},{
+			"type": 0,
+			"channel": {
+				"type": 0,
+				"offset": 4
+			},
+			"mixID": -99
+		},{
+			"type": 0,
+			"channel": {
+				"type": 0,
+				"offset": 5
+			},
+			"mixID": -99
+		},{
+			"type": 0,
+			"channel": {
+				"type": 0,
+				"offset": 6
+			},
+			"mixID": -99
+		},{
+			"type": 0,
+			"channel": {
+				"type": 0,
+				"offset": 7
+			},
+			"mixID": -99
+		},{
+			"type": 0,
+			"channel": {
+				"type": 0,
+				"offset": 8
+			},
+			"mixID": -99
+		},{
+			"type": 0,
+			"channel": {
+				"type": 0,
+				"offset": 9
+			},
+			"mixID": -99
+		},{
+			"type": 0,
+			"channel": {
+				"type": 0,
+				"offset": 10
+			},
+			"mixID": -99
+		},{
+			"type": 0,
+			"channel": {
+				"type": 0,
+				"offset": 11
+			},
+			"mixID": -99
+		},{
+			"type": 0,
+			"channel": {
+				"type": 0,
+				"offset": 12
+			},
+			"mixID": -99
+		},{
+			"type": 0,
+			"channel": {
+				"type": 0,
+				"offset": 13
+			},
+			"mixID": -99
+		},{
+			"type": 0,
+			"channel": {
+				"type": 0,
+				"offset": 14
+			},
+			"mixID": -99
+		},{
+			"type": 0,
+			"channel": {
+				"type": 0,
+				"offset": 15
+			},
+			"mixID": -99
+		},{
+			"type": 0,
+			"channel": {
+				"type": 1,
+				"offset": 0
+			},
+			"mixID": -99
+		}],
+		"colorMode": 1,
+		"layerType": 0,
+		"color": 0
+	},{
+		"visible": true,
+		"name": "FxRet/Bus",
+		"items": [{
+			"type": 0,
+			"channel": {
+				"type": 3,
+				"offset": 0
+			},
+			"mixID": -99
+		},{
+			"type": 0,
+			"channel": {
+				"type": 3,
+				"offset": 1
+			},
+			"mixID": -99
+		},{
+			"type": 0,
+			"channel": {
+				"type": 3,
+				"offset": 2
+			},
+			"mixID": -99
+		},{
+			"type": 0,
+			"channel": {
+				"type": 3,
+				"offset": 3
+			},
+			"mixID": -99
+		},{
+			"type": 0,
+			"channel": {
+				"type": 4,
+				"offset": 0
+			},
+			"mixID": -99
+		},{
+			"type": 0,
+			"channel": {
+				"type": 4,
+				"offset": 1
+			},
+			"mixID": -99
+		},{
+			"type": 0,
+			"channel": {
+				"type": 4,
+				"offset": 2
+			},
+			"mixID": -99
+		},{
+			"type": 0,
+			"channel": {
+				"type": 4,
+				"offset": 3
+			},
+			"mixID": -99
+		},{
+			"type": 0,
+			"channel": {
+				"type": 4,
+				"offset": 4
+			},
+			"mixID": -99
+		},{
+			"type": 0,
+			"channel": {
+				"type": 4,
+				"offset": 5
+			},
+			"mixID": -99
+		}],
+		"colorMode": 1,
+		"layerType": 0,
+		"color": 0
+	},{
+		"visible": true,
+		"name": "FxSnd/Main",
+		"items": [{
+			"type": 0,
+			"channel": {
+				"type": 2,
+				"offset": 0
+			},
+			"mixID": -99
+		},{
+			"type": 0,
+			"channel": {
+				"type": 2,
+				"offset": 1
+			},
+			"mixID": -99
+		},{
+			"type": 0,
+			"channel": {
+				"type": 2,
+				"offset": 2
+			},
+			"mixID": -99
+		},{
+			"type": 0,
+			"channel": {
+				"type": 2,
+				"offset": 3
+			},
+			"mixID": -99
+		},{
+			"type": 0,
+			"channel": {
+				"type": 6,
+				"offset": 0
+			},
+			"mixID": -99
+		}],
+		"colorMode": 1,
+		"layerType": 0,
+		"color": 0
+	},{
+		"visible": true,
+		"name": "DCA",
+		"items": [{
+			"type": 0,
+			"channel": {
+				"type": 8,
+				"offset": 0
+			},
+			"mixID": -99
+		},{
+			"type": 0,
+			"channel": {
+				"type": 8,
+				"offset": 1
+			},
+			"mixID": -99
+		},{
+			"type": 0,
+			"channel": {
+				"type": 8,
+				"offset": 2
+			},
+			"mixID": -99
+		},{
+			"type": 0,
+			"channel": {
+				"type": 8,
+				"offset": 3
+			},
+			"mixID": -99
+		}],
+		"colorMode": 1,
+		"layerType": 0,
+		"color": 0
+	}],
+	"intDcas": [],
+	"modelVersion": 3,
+	"sofs": [{
+		"sendId": 0,
+		"enabled": true
+	},{
+		"sendId": 1,
+		"enabled": true
+	},{
+		"sendId": 2,
+		"enabled": true
+	},{
+		"sendId": 3,
+		"enabled": true
+	},{
+		"sendId": 4,
+		"enabled": true
+	},{
+		"sendId": 5,
+		"enabled": true
+	},{
+		"sendId": 6,
+		"enabled": true
+	},{
+		"sendId": 7,
+		"enabled": true
+	},{
+		"sendId": 8,
+		"enabled": true
+	},{
+		"sendId": 9,
+		"enabled": true
+	},{
+		"sendId": -2,
+		"enabled": false
+	}]
+}
