@@ -1,0 +1,87 @@
+{
+	"extra": {
+		"rtaFS": true,
+		"vs": {
+			"sourceGroup": 0,
+			"modelVersion": 0,
+			"selectedCh": [{
+				"type": 0,
+				"offset": 0
+			},{
+				"type": 0,
+				"offset": 1
+			},{
+				"type": 0,
+				"offset": 2
+			},{
+				"type": 0,
+				"offset": 3
+			},{
+				"type": 0,
+				"offset": 4
+			},{
+				"type": 0,
+				"offset": 5
+			},{
+				"type": 0,
+				"offset": 6
+			},{
+				"type": 0,
+				"offset": 7
+			},{
+				"type": 0,
+				"offset": 8
+			},{
+				"type": 0,
+				"offset": 9
+			},{
+				"type": 0,
+				"offset": 10
+			},{
+				"type": 0,
+				"offset": 11
+			},{
+				"type": 0,
+				"offset": 12
+			},{
+				"type": 0,
+				"offset": 13
+			},{
+				"type": 0,
+				"offset": 14
+			},{
+				"type": 0,
+				"offset": 15
+			}],
+			"source": 0
+		}
+	},
+	"metering": {
+		"tap": {
+			"0": 0,
+			"4": 0,
+			"1": 0,
+			"8": 0,
+			"3": 0,
+			"6": 1,
+			"2": 0
+		}
+	},
+	"modelVersion": 5,
+	"fbtTarget": 31,
+	"llus": "default",
+	"appLink": {
+		"name": "unnamed",
+		"enable": false,
+		"group": "default",
+		"sendChSelect": false,
+		"sendSof": false
+	},
+	"surroundPan": {
+		"enabled": false
+	},
+	"mutegroupLabels": ["1","2","3","4","5","6"],
+	"didGlobalMigration": true,
+	"fbtSource": 31,
+	"fbtSensitivity": 6.05
+}

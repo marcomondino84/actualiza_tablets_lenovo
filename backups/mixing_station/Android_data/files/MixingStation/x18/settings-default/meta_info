@@ -1,0 +1,14 @@
+{
+	"platform": "android",
+	"screenWidth": 1280,
+	"versionCode": 623,
+	"consoleId": 2,
+	"consoleModelId": 0,
+	"version": "2.8.1",
+	"screenHeight": 736,
+	"screenDensity": 1.3312501,
+	"name": "default",
+	"timestamp": "1775090299",
+	"consoleModel": "XR18",
+	"rawScaling": 1.3312501
+}

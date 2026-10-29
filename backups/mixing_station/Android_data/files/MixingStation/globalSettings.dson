@@ -1,0 +1,208 @@
+{
+	"modelVersion": 1,
+	"rmDev": false,
+	"windowWidth": 0,
+	"launchCounter": 61,
+	"powerSavingMode": 1,
+	"apiRestPort": 8080,
+	"apiOscEnable": false,
+	"windowX": 0,
+	"autoRecon": true,
+	"uiScale": 1.0,
+	"mixerHistory": {
+		"mixers": [{
+			"name": "",
+			"search": true,
+			"mixAccess": [-1],
+			"consoleId": 2,
+			"fav": false,
+			"hostname": "",
+			"connection": {
+
+			}
+		}]
+	},
+	"allowDifferentSubnet": false,
+	"closeConfirm": true,
+	"autostartConsoleId": -1,
+	"apiRestEnable": false,
+	"busProcessing": false,
+	"windowY": 0,
+	"busFader": true,
+	"feat": {
+		"rm": "1"
+	},
+	"windowSettings": {
+		"meteringWindow": false,
+		"windows": {
+
+		},
+		"channelProcessingWindow": false
+	},
+	"apiOscPort": 3000,
+	"userAppSettings": {
+		"modelVersion": 8,
+		"showPeqInfoDialog": true,
+		"usbMidi": 0,
+		"showFdrMeterbridge": true,
+		"peqPinchRatios": 4,
+		"screenMode": 1,
+		"processingSize": {
+			"fullscreen": [true,false]
+		},
+		"fxTapPopup": false,
+		"fxOrient": 0,
+		"didRunSetupWizard": true,
+		"useLayersForMeterBridge": true,
+		"2fdtAction": true,
+		"channelStrip": {
+			"items": [{
+				"height": 40.0,
+				"extra": {
+					"ro": true,
+					"knobLongClick": 1,
+					"knobClick": 1,
+					"knobDoubleClick": 0
+				},
+				"heightP": 0.0,
+				"id": "gain",
+				"disableFill": false
+			},{
+				"height": 30.046947,
+				"extra": {
+					"items": 29
+				},
+				"heightP": 0.0,
+				"id": "info",
+				"disableFill": false
+			},{
+				"height": 57.0,
+				"extra": {
+					"lc": -1,
+					"c": -1
+				},
+				"heightP": 0.0,
+				"id": "chBtn",
+				"disableFill": false
+			},{
+				"height": 40.0,
+				"extra": {
+
+				},
+				"heightP": 0.0,
+				"id": "mute",
+				"disableFill": false
+			},{
+				"height": 30.000002,
+				"extra": {
+					"knobLongClick": -1,
+					"knobClick": -1,
+					"knobDoubleClick": -1,
+					"knobRatios": -1
+				},
+				"heightP": 0.0,
+				"id": "pan",
+				"disableFill": false
+			},{
+				"height": 160.0,
+				"extra": {
+					"mPos": 0,
+					"faderTouch": -1,
+					"grD": true,
+					"grG": false,
+					"faderDoubleTap": -1,
+					"grp": false
+				},
+				"heightP": 0.3,
+				"id": "fader",
+				"disableFill": false
+			},{
+				"height": 40.0,
+				"extra": {
+
+				},
+				"heightP": 0.0,
+				"id": "solo",
+				"disableFill": false
+			}],
+			"autoLayout": true,
+			"slider": {
+				"knobLongClick": 1,
+				"knobClick": 0,
+				"knobRatios": 4,
+				"knobDoubleClick": 2
+			},
+			"fader": {
+				"faderDoubleTap": 0,
+				"faderTouch": 0
+			},
+			"chBtn": {
+				"lc": 2,
+				"c": 1
+			},
+			"autoResizeHiddenItems": false
+		},
+		"showDynamicsTimeline": true,
+		"chColorFaderKnob": false,
+		"reGain": {
+			"cpUseRg": true,
+			"adjustGate": true,
+			"adjustComp": true,
+			"sendFilter": 1,
+			"adjustMain": true,
+			"adjustAuxMain": true
+		},
+		"panStyle": 0,
+		"ffR": 2,
+		"sofFaderSlot": true,
+		"hlSelCh": false,
+		"muteForSends": false,
+		"ffE": true,
+		"chColorFaderSlot": false,
+		"flashingSendsOnFader": true,
+		"meterDecay": 60,
+		"showSoFMixList": true,
+		"showMeterbridge": false,
+		"meteringType": 0,
+		"rta": {
+			"style": 0,
+			"rtaAveraging": 1,
+			"rtaO": 0.0
+		},
+		"sofBg": false,
+		"appLink": {
+			"name": "unnamed",
+			"enable": false,
+			"group": "default",
+			"sendChSelect": false,
+			"sendSof": false
+		},
+		"knobSettings": {
+			"knobLongClick": 1,
+			"knobClick": 0,
+			"knobRatios": 4,
+			"knobDoubleClick": 2
+		},
+		"defaultChannelsPerLayer": 17,
+		"onAsMute": false,
+		"chSpill": {
+			"includeMain": false,
+			"enabled": false,
+			"placement": 0
+		},
+		"efLvl": true,
+		"useLayersForChannelSwitching": false,
+		"sofFaderKnob": true,
+		"peakHoldMs": 2000,
+		"mE": true,
+		"soFmixMute": true,
+		"lockOrientation": 0,
+		"autosaveLayer": true,
+		"meteringStyle": 1,
+		"themeName": "unnamed.css"
+	},
+	"windowHeight": 0,
+	"updateBranch": 0,
+	"skipConsoleSync": false,
+	"scrollMode": 0
+}

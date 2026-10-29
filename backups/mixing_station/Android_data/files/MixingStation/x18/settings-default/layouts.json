@@ -1,0 +1,1125 @@
+{
+	"modelVersion": 2,
+	"chStripSettings": [],
+	"layouts": {
+		"modelVersion": 0,
+		"pItems": [],
+		"id": "73e9b122-7961-4a74-ba03-c53a5f586a5d",
+		"behavior": 1,
+		"tid": -1,
+		"name": "Marco",
+		"gridSize": 4,
+		"orientation": 0,
+		"readonly": false,
+		"showMixerMenu": false,
+		"lItems": [{
+			"actionSlots": [],
+			"ui": {
+				"minValue": 0.0,
+				"chOffset": 0,
+				"lyP": 0.0,
+				"lheight": 0,
+				"vsc": 0,
+				"uuid": "170975fe-f3d2-45ef-8340-da8028303e21",
+				"posX": 0.1125,
+				"layerOffset": 0,
+				"pxP": 0.0,
+				"pheight": 0,
+				"v": 2,
+				"chStripSetting": null,
+				"pwidth": 0,
+				"px": 0,
+				"posY": 0.1125,
+				"label": "",
+				"lx": 0,
+				"ly": 0,
+				"type": "mixer",
+				"py": 0,
+				"pheightP": 0.0,
+				"visibleChannels": -1,
+				"height": 0.8874999,
+				"pwidthP": 0.0,
+				"lxP": 0.0,
+				"lwidth": 0,
+				"lwidthP": 0.0,
+				"layerSg": -1,
+				"locked": false,
+				"pyP": 0.0,
+				"width": 0.7875,
+				"margin": 0,
+				"maxValue": 1.0,
+				"lheightP": 0.0
+			}
+		},{
+			"actionSlots": [],
+			"ui": {
+				"minValue": 0.0,
+				"lyP": 0.0,
+				"lheight": 0,
+				"vsc": 0,
+				"uuid": "480f0d9f-c166-4f89-8920-a24a881ff92f",
+				"posX": 0.1,
+				"pxP": 0.0,
+				"pheight": 0,
+				"v": 2,
+				"pwidth": 0,
+				"px": 0,
+				"posY": 0.0,
+				"label": "[label]",
+				"lx": 0,
+				"ly": 0,
+				"type": "meterbar",
+				"py": 0,
+				"pheightP": 0.0,
+				"height": 0.1125,
+				"pwidthP": 0.0,
+				"lxP": 0.0,
+				"lwidth": 0,
+				"lwidthP": 0.0,
+				"locked": false,
+				"pyP": 0.0,
+				"width": 0.8,
+				"margin": 0,
+				"maxValue": 1.0,
+				"lheightP": 0.0
+			}
+		},{
+			"actionSlots": [{
+				"key": "click",
+				"actions": {
+					"actions": {
+						"enable": true,
+						"boolMode": 0,
+						"src": 1,
+						"key": "appCfg",
+						"uuid": "37ca7358-d573-4f4f-828a-3b5b5b2c7643",
+						"col": -1,
+						"invertOutput": false,
+						"lo": null
+					}
+				}
+			},{
+				"key": "longClick",
+				"actions": {
+					"actions": []
+				}
+			},{
+				"key": "touch",
+				"actions": {
+					"actions": []
+				}
+			},{
+				"key": "momentary",
+				"actions": {
+					"actions": []
+				}
+			},{
+				"key": "color",
+				"actions": {
+					"actions": []
+				}
+			}],
+			"ui": {
+				"minValue": 0.0,
+				"lyP": 0.0,
+				"lheight": 0,
+				"vsc": 0,
+				"uuid": "aaec9ca0-1af0-42cf-bb06-06d24a54381c",
+				"posX": 0.90625,
+				"tSizeDp": 13,
+				"pxP": 0.0,
+				"textFormat": 0,
+				"pheight": 0,
+				"v": 2,
+				"pwidth": 0,
+				"px": 0,
+				"posY": 0.87499994,
+				"label": "[label]",
+				"lx": 0,
+				"ly": 0,
+				"type": "btn",
+				"py": 0,
+				"sClass": "",
+				"pheightP": 0.0,
+				"behave": 0,
+				"height": 0.1125,
+				"pwidthP": 0.0,
+				"showLabel": true,
+				"lxP": 0.0,
+				"tpos": 0,
+				"lwidth": 0,
+				"lwidthP": 0.0,
+				"locked": false,
+				"pyP": 0.0,
+				"width": 0.09375,
+				"margin": 0,
+				"maxValue": 1.0,
+				"lheightP": 0.0
+			}
+		},{
+			"actionSlots": [{
+				"key": "click",
+				"actions": {
+					"actions": {
+						"enable": true,
+						"boolMode": 0,
+						"src": 0,
+						"key": "appCfg",
+						"uuid": "e29f9509-cff1-4bf8-95d5-7e5cd504f746",
+						"col": -1,
+						"invertOutput": false,
+						"lo": null
+					}
+				}
+			},{
+				"key": "longClick",
+				"actions": {
+					"actions": []
+				}
+			},{
+				"key": "touch",
+				"actions": {
+					"actions": []
+				}
+			},{
+				"key": "momentary",
+				"actions": {
+					"actions": []
+				}
+			},{
+				"key": "color",
+				"actions": {
+					"actions": []
+				}
+			}],
+			"ui": {
+				"minValue": 0.0,
+				"lyP": 0.0,
+				"lheight": 0,
+				"vsc": 0,
+				"uuid": "fb28136c-b18e-4a64-8770-998add6b407c",
+				"posX": 0.90625,
+				"tSizeDp": 13,
+				"pxP": 0.0,
+				"textFormat": 0,
+				"pheight": 0,
+				"v": 2,
+				"pwidth": 0,
+				"px": 0,
+				"posY": 0.7499998,
+				"label": "[label]",
+				"lx": 0,
+				"ly": 0,
+				"type": "btn",
+				"py": 0,
+				"sClass": "red",
+				"pheightP": 0.0,
+				"behave": 0,
+				"height": 0.1125,
+				"pwidthP": 0.0,
+				"showLabel": true,
+				"lxP": 0.0,
+				"tpos": 0,
+				"lwidth": 0,
+				"lwidthP": 0.0,
+				"locked": false,
+				"pyP": 0.0,
+				"width": 0.09375,
+				"margin": 0,
+				"maxValue": 1.0,
+				"lheightP": 0.0
+			}
+		},{
+			"actionSlots": [],
+			"ui": {
+				"minValue": 0.0,
+				"lyP": 0.0,
+				"lheight": 0,
+				"vsc": 0,
+				"uuid": "8e083c40-4754-45f2-ad14-06344ad33585",
+				"posX": 0.90625,
+				"pxP": 0.0,
+				"pheight": 0,
+				"v": 2,
+				"pwidth": 0,
+				"px": 0,
+				"posY": 4.5316543E-8,
+				"label": "",
+				"lx": 0,
+				"ly": 0,
+				"type": "sofButtonList",
+				"py": 0,
+				"pheightP": 0.0,
+				"height": 0.73749995,
+				"pwidthP": 0.0,
+				"lxP": 0.0,
+				"lwidth": 0,
+				"lwidthP": 0.0,
+				"locked": false,
+				"pyP": 0.0,
+				"width": 0.09375,
+				"margin": 0,
+				"maxValue": 1.0,
+				"lheightP": 0.0
+			}
+		},{
+			"actionSlots": [{
+				"key": "main",
+				"actions": {
+					"actions": {
+						"enable": true,
+						"boolMode": 0,
+						"action": -10,
+						"key": "show",
+						"uuid": "0dcf6faf-4378-48ec-9b9c-bae21868a045",
+						"col": -1,
+						"invertOutput": false,
+						"lo": null
+					}
+				}
+			},{
+				"key": "color",
+				"actions": {
+					"actions": []
+				}
+			}],
+			"ui": {
+				"minValue": 0.0,
+				"lyP": 0.0,
+				"lheight": 0,
+				"vsc": 0,
+				"uuid": "a3b5ec6b-f7ec-44fc-b170-0c6ae5a7a7ed",
+				"posX": 0.00625,
+				"tSizeDp": 13,
+				"pxP": 0.0,
+				"textFormat": 0,
+				"pheight": 0,
+				"v": 2,
+				"pwidth": 0,
+				"px": 0,
+				"posY": 0.012500008,
+				"label": "Scene:\n[value]",
+				"lx": 0,
+				"ly": 0,
+				"type": "lbl",
+				"py": 0,
+				"sClass": "",
+				"pheightP": 0.0,
+				"height": 0.062499993,
+				"pwidthP": 0.0,
+				"colorMode": 0,
+				"lxP": 0.0,
+				"tpos": 0,
+				"lwidth": 0,
+				"lwidthP": 0.0,
+				"locked": false,
+				"pyP": 0.0,
+				"width": 0.09375,
+				"margin": 0,
+				"maxValue": 1.0,
+				"lheightP": 0.0
+			}
+		},{
+			"actionSlots": [{
+				"key": "click",
+				"actions": {
+					"actions": []
+				}
+			},{
+				"key": "longClick",
+				"actions": {
+					"actions": []
+				}
+			},{
+				"key": "touch",
+				"actions": {
+					"actions": {
+						"enable": true,
+						"boolMode": 0,
+						"val": -1,
+						"key": "fx",
+						"rack": 2,
+						"uuid": "18368185-a978-4292-bbae-aba04f902e89",
+						"tap": 0,
+						"col": -1,
+						"invertOutput": false,
+						"lo": null
+					}
+				}
+			},{
+				"key": "momentary",
+				"actions": {
+					"actions": []
+				}
+			},{
+				"key": "color",
+				"actions": {
+					"actions": []
+				}
+			}],
+			"ui": {
+				"minValue": 0.0,
+				"lyP": 0.0,
+				"lheight": 0,
+				"vsc": 0,
+				"uuid": "3685f9c9-da1c-4869-91b2-924bb671d18e",
+				"posX": 0.00625,
+				"tSizeDp": 13,
+				"pxP": 0.0,
+				"textFormat": 0,
+				"pheight": 0,
+				"v": 2,
+				"pwidth": 0,
+				"px": 0,
+				"posY": 0.87499994,
+				"label": "[label] DL\n[value]",
+				"lx": 0,
+				"ly": 0,
+				"type": "btn",
+				"py": 0,
+				"sClass": "",
+				"pheightP": 0.0,
+				"behave": 0,
+				"height": 0.1125,
+				"pwidthP": 0.0,
+				"showLabel": true,
+				"lxP": 0.0,
+				"tpos": 0,
+				"lwidth": 0,
+				"lwidthP": 0.0,
+				"locked": false,
+				"pyP": 0.0,
+				"width": 0.09375,
+				"margin": 0,
+				"maxValue": 1.0,
+				"lheightP": 0.0
+			}
+		},{
+			"actionSlots": {
+				"key": "main",
+				"actions": {
+					"actions": {
+						"enable": true,
+						"boolMode": 0,
+						"val": 1,
+						"key": "fx",
+						"rack": 0,
+						"uuid": "3da426d5-f90d-435c-bfe9-8422bfd36a1f",
+						"tap": 0,
+						"col": -1,
+						"invertOutput": false,
+						"lo": null
+					}
+				}
+			},
+			"ui": {
+				"minValue": 0.0,
+				"lyP": 0.0,
+				"ratio": -1,
+				"lheight": 0,
+				"vsc": 0,
+				"uuid": "0be48756-2cc1-4cd1-b5f0-31f7a960b5ce",
+				"posX": 0.01875,
+				"pxP": 0.0,
+				"pheight": 0,
+				"v": 2,
+				"pwidth": 0,
+				"px": 0,
+				"posY": 0.40000004,
+				"label": "Decay FX 1",
+				"lx": 0,
+				"ly": 0,
+				"type": "knb",
+				"py": 0,
+				"pheightP": 0.0,
+				"height": 0.13749997,
+				"pwidthP": 0.0,
+				"lxP": 0.0,
+				"lwidth": 0,
+				"lwidthP": 0.0,
+				"locked": false,
+				"pyP": 0.0,
+				"width": 0.06875,
+				"margin": 1,
+				"maxValue": 1.0,
+				"lheightP": 0.0
+			}
+		},{
+			"actionSlots": {
+				"key": "main",
+				"actions": {
+					"actions": {
+						"enable": true,
+						"boolMode": 0,
+						"val": 1,
+						"key": "fx",
+						"rack": 1,
+						"uuid": "59e0bba1-fa98-4326-b908-d995f608e2cf",
+						"tap": 0,
+						"col": -1,
+						"invertOutput": false,
+						"lo": null
+					}
+				}
+			},
+			"ui": {
+				"minValue": 0.0,
+				"lyP": 0.0,
+				"ratio": -1,
+				"lheight": 0,
+				"vsc": 0,
+				"uuid": "828adc84-4ac6-4b6c-9cd1-98a8d89493be",
+				"posX": 0.01875,
+				"pxP": 0.0,
+				"pheight": 0,
+				"v": 2,
+				"pwidth": 0,
+				"px": 0,
+				"posY": 0.53749996,
+				"label": "Decay FX 2",
+				"lx": 0,
+				"ly": 0,
+				"type": "knb",
+				"py": 0,
+				"pheightP": 0.0,
+				"height": 0.13749997,
+				"pwidthP": 0.0,
+				"lxP": 0.0,
+				"lwidth": 0,
+				"lwidthP": 0.0,
+				"locked": false,
+				"pyP": 0.0,
+				"width": 0.06875,
+				"margin": 1,
+				"maxValue": 1.0,
+				"lheightP": 0.0
+			}
+		},{
+			"actionSlots": {
+				"key": "main",
+				"actions": {
+					"actions": {
+						"enable": true,
+						"boolMode": 0,
+						"val": 9,
+						"key": "fx",
+						"rack": 2,
+						"uuid": "f193fa75-9769-4807-be06-7e5ff0be489c",
+						"tap": 0,
+						"col": -1,
+						"invertOutput": false,
+						"lo": null
+					}
+				}
+			},
+			"ui": {
+				"minValue": 0.0,
+				"lyP": 0.0,
+				"ratio": -1,
+				"lheight": 0,
+				"vsc": 0,
+				"uuid": "1bb13a23-b1c1-4205-8324-2c6ec11825d8",
+				"posX": 0.00625,
+				"pxP": 0.0,
+				"pheight": 0,
+				"v": 2,
+				"pwidth": 0,
+				"px": 0,
+				"posY": 0.7499998,
+				"label": "Feed L",
+				"lx": 0,
+				"ly": 0,
+				"type": "knb",
+				"py": 0,
+				"pheightP": 0.0,
+				"height": 0.125,
+				"pwidthP": 0.0,
+				"lxP": 0.0,
+				"lwidth": 0,
+				"lwidthP": 0.0,
+				"locked": false,
+				"pyP": 0.0,
+				"width": 0.05,
+				"margin": 1,
+				"maxValue": 1.0,
+				"lheightP": 0.0
+			}
+		},{
+			"actionSlots": {
+				"key": "main",
+				"actions": {
+					"actions": {
+						"enable": true,
+						"boolMode": 0,
+						"val": 10,
+						"key": "fx",
+						"rack": 2,
+						"uuid": "01412546-97bb-46b0-9a23-1c70fb6edcfc",
+						"tap": 0,
+						"col": -1,
+						"invertOutput": false,
+						"lo": null
+					}
+				}
+			},
+			"ui": {
+				"minValue": 0.0,
+				"lyP": 0.0,
+				"ratio": -1,
+				"lheight": 0,
+				"vsc": 0,
+				"uuid": "24228cc1-09bb-4fc3-8708-931ad5cd5ea3",
+				"posX": 0.05,
+				"pxP": 0.0,
+				"pheight": 0,
+				"v": 2,
+				"pwidth": 0,
+				"px": 0,
+				"posY": 0.7499998,
+				"label": "Feed R",
+				"lx": 0,
+				"ly": 0,
+				"type": "knb",
+				"py": 0,
+				"pheightP": 0.0,
+				"height": 0.125,
+				"pwidthP": 0.0,
+				"lxP": 0.0,
+				"lwidth": 0,
+				"lwidthP": 0.0,
+				"locked": false,
+				"pyP": 0.0,
+				"width": 0.05625,
+				"margin": 1,
+				"maxValue": 1.0,
+				"lheightP": 0.0
+			}
+		},{
+			"actionSlots": [{
+				"key": "main",
+				"actions": {
+					"actions": []
+				}
+			},{
+				"key": "color",
+				"actions": {
+					"actions": []
+				}
+			}],
+			"ui": {
+				"minValue": 0.0,
+				"lyP": 0.0,
+				"lheight": 0,
+				"vsc": 0,
+				"uuid": "6466d3fe-7855-4a0c-84f0-4ad8a19bdaf7",
+				"posX": 0.00625,
+				"tSizeDp": 14,
+				"pxP": 0.0,
+				"textFormat": 0,
+				"pheight": 0,
+				"v": 2,
+				"pwidth": 0,
+				"px": 0,
+				"posY": 0.6874999,
+				"label": "Delay FX3",
+				"lx": 0,
+				"ly": 0,
+				"type": "lbl",
+				"py": 0,
+				"sClass": "blue",
+				"pheightP": 0.0,
+				"height": 0.062499993,
+				"pwidthP": 0.0,
+				"colorMode": 0,
+				"lxP": 0.0,
+				"tpos": 0,
+				"lwidth": 0,
+				"lwidthP": 0.0,
+				"locked": false,
+				"pyP": 0.0,
+				"width": 0.09375,
+				"margin": 0,
+				"maxValue": 1.0,
+				"lheightP": 0.0
+			}
+		},{
+			"actionSlots": {
+				"key": "color",
+				"actions": {
+					"actions": []
+				}
+			},
+			"ui": {
+				"minValue": 0.0,
+				"lyP": 0.0,
+				"lheight": 0,
+				"vsc": 0,
+				"uuid": "46ffffbf-4948-49dd-b01c-a38426eef338",
+				"posX": 0.0,
+				"pxP": 0.0,
+				"pheight": 0,
+				"v": 2,
+				"pwidth": 0,
+				"px": 0,
+				"posY": 0.7,
+				"label": "[label]",
+				"lx": 0,
+				"ly": 0,
+				"type": "bg",
+				"py": 0,
+				"sClass": "fad7eabd-8501-4f78-91c0-0fbb08905c03",
+				"pheightP": 0.0,
+				"height": 0.29999995,
+				"pwidthP": 0.0,
+				"colorMode": 0,
+				"lxP": 0.0,
+				"lwidth": 0,
+				"lwidthP": 0.0,
+				"locked": false,
+				"pyP": 0.0,
+				"width": 0.10625,
+				"margin": 1,
+				"maxValue": 1.0,
+				"lheightP": 0.0
+			}
+		},{
+			"actionSlots": {
+				"key": "color",
+				"actions": {
+					"actions": []
+				}
+			},
+			"ui": {
+				"minValue": 0.0,
+				"lyP": 0.0,
+				"lheight": 0,
+				"vsc": 0,
+				"uuid": "ae78e09c-1da5-40ca-ba23-ce9b7bd54173",
+				"posX": 0.0,
+				"pxP": 0.0,
+				"pheight": 0,
+				"v": 2,
+				"pwidth": 0,
+				"px": 0,
+				"posY": 0.3875,
+				"label": "[label]",
+				"lx": 0,
+				"ly": 0,
+				"type": "bg",
+				"py": 0,
+				"sClass": "fad7eabd-8501-4f78-91c0-0fbb08905c03",
+				"pheightP": 0.0,
+				"height": 0.29999995,
+				"pwidthP": 0.0,
+				"colorMode": 0,
+				"lxP": 0.0,
+				"lwidth": 0,
+				"lwidthP": 0.0,
+				"locked": false,
+				"pyP": 0.0,
+				"width": 0.10625,
+				"margin": 1,
+				"maxValue": 1.0,
+				"lheightP": 0.0
+			}
+		},{
+			"actionSlots": [{
+				"key": "click",
+				"actions": {
+					"actions": [{
+						"enable": true,
+						"boolMode": 0,
+						"SoF": false,
+						"key": "fixedCH",
+						"path": "mix.on",
+						"offset": 0,
+						"uuid": "ade9a89c-4a00-4b1d-a867-8eb337f20886",
+						"col": 0,
+						"type": 3,
+						"invertOutput": true,
+						"lo": null
+					},{
+						"enable": true,
+						"boolMode": 0,
+						"SoF": false,
+						"key": "fixedCH",
+						"path": "mix.on",
+						"offset": 1,
+						"uuid": "2f262f64-8fe2-475f-a106-2af9d8de79f9",
+						"col": 0,
+						"type": 3,
+						"invertOutput": true,
+						"lo": null
+					},{
+						"enable": true,
+						"boolMode": 0,
+						"SoF": false,
+						"key": "fixedCH",
+						"path": "mix.on",
+						"offset": 2,
+						"uuid": "ea37004f-d2b6-474e-8673-0cadba11755d",
+						"col": 0,
+						"type": 3,
+						"invertOutput": true,
+						"lo": null
+					}]
+				}
+			},{
+				"key": "longClick",
+				"actions": {
+					"actions": []
+				}
+			},{
+				"key": "touch",
+				"actions": {
+					"actions": []
+				}
+			},{
+				"key": "momentary",
+				"actions": {
+					"actions": []
+				}
+			},{
+				"key": "color",
+				"actions": {
+					"actions": []
+				}
+			}],
+			"ui": {
+				"minValue": 0.0,
+				"lyP": 0.0,
+				"lheight": 0,
+				"vsc": 0,
+				"uuid": "8dfb3bf8-64e7-46ca-9e90-d3fa47ae33af",
+				"posX": 0.025,
+				"tSizeDp": 13,
+				"pxP": 0.0,
+				"textFormat": 0,
+				"pheight": 0,
+				"v": 2,
+				"pwidth": 0,
+				"px": 0,
+				"posY": 0.27499998,
+				"label": "Mute FX",
+				"lx": 0,
+				"ly": 0,
+				"type": "btn",
+				"py": 0,
+				"sClass": "red",
+				"pheightP": 0.0,
+				"behave": 0,
+				"height": 0.074999996,
+				"pwidthP": 0.0,
+				"showLabel": true,
+				"lxP": 0.0,
+				"tpos": 0,
+				"lwidth": 0,
+				"lwidthP": 0.0,
+				"locked": false,
+				"pyP": 0.0,
+				"width": 0.0625,
+				"margin": 1,
+				"maxValue": 1.0,
+				"lheightP": 0.0
+			}
+		},{
+			"actionSlots": [{
+				"key": "click",
+				"actions": {
+					"actions": {
+						"enable": true,
+						"boolMode": 0,
+						"key": "mutegroup",
+						"uuid": null,
+						"col": -1,
+						"invertOutput": false,
+						"mgrp": 0,
+						"lo": null
+					}
+				}
+			},{
+				"key": "longClick",
+				"actions": {
+					"actions": []
+				}
+			},{
+				"key": "touch",
+				"actions": {
+					"actions": []
+				}
+			},{
+				"key": "momentary",
+				"actions": {
+					"actions": []
+				}
+			},{
+				"key": "color",
+				"actions": {
+					"actions": []
+				}
+			}],
+			"ui": {
+				"minValue": 0.0,
+				"lyP": 0.0,
+				"lheight": 0,
+				"vsc": 0,
+				"uuid": "014567ba-a9da-4c0a-9a5c-2d001ddc9496",
+				"posX": 0.00625,
+				"tSizeDp": 13,
+				"pxP": 0.0,
+				"textFormat": 0,
+				"pheight": 0,
+				"v": 2,
+				"pwidth": 0,
+				"px": 0,
+				"posY": 0.09999997,
+				"label": "[label]",
+				"lx": 0,
+				"ly": 0,
+				"type": "btn",
+				"py": 0,
+				"sClass": "red",
+				"pheightP": 0.0,
+				"behave": 0,
+				"height": 0.074999996,
+				"pwidthP": 0.0,
+				"showLabel": true,
+				"lxP": 0.0,
+				"tpos": 0,
+				"lwidth": 0,
+				"lwidthP": 0.0,
+				"locked": false,
+				"pyP": 0.0,
+				"width": 0.05,
+				"margin": 1,
+				"maxValue": 1.0,
+				"lheightP": 0.0
+			}
+		},{
+			"actionSlots": [{
+				"key": "click",
+				"actions": {
+					"actions": {
+						"enable": true,
+						"boolMode": 0,
+						"key": "mutegroup",
+						"uuid": "7695cb38-875a-42e5-b980-577c262997ac",
+						"col": -1,
+						"invertOutput": false,
+						"mgrp": 1,
+						"lo": null
+					}
+				}
+			},{
+				"key": "longClick",
+				"actions": {
+					"actions": []
+				}
+			},{
+				"key": "touch",
+				"actions": {
+					"actions": []
+				}
+			},{
+				"key": "momentary",
+				"actions": {
+					"actions": []
+				}
+			},{
+				"key": "color",
+				"actions": {
+					"actions": []
+				}
+			}],
+			"ui": {
+				"minValue": 0.0,
+				"lyP": 0.0,
+				"lheight": 0,
+				"vsc": 0,
+				"uuid": "21a980be-1e0c-4338-acbd-720316207ac5",
+				"posX": 0.05625,
+				"tSizeDp": 13,
+				"pxP": 0.0,
+				"textFormat": 0,
+				"pheight": 0,
+				"v": 2,
+				"pwidth": 0,
+				"px": 0,
+				"posY": 0.099999994,
+				"label": "[label]",
+				"lx": 0,
+				"ly": 0,
+				"type": "btn",
+				"py": 0,
+				"sClass": "red",
+				"pheightP": 0.0,
+				"behave": 0,
+				"height": 0.074999996,
+				"pwidthP": 0.0,
+				"showLabel": true,
+				"lxP": 0.0,
+				"tpos": 0,
+				"lwidth": 0,
+				"lwidthP": 0.0,
+				"locked": false,
+				"pyP": 0.0,
+				"width": 0.05,
+				"margin": 1,
+				"maxValue": 1.0,
+				"lheightP": 0.0
+			}
+		},{
+			"actionSlots": [{
+				"key": "click",
+				"actions": {
+					"actions": {
+						"enable": true,
+						"boolMode": 0,
+						"key": "mutegroup",
+						"uuid": "50732060-90a4-4555-89b6-8b507ce9648a",
+						"col": -1,
+						"invertOutput": false,
+						"mgrp": 2,
+						"lo": null
+					}
+				}
+			},{
+				"key": "longClick",
+				"actions": {
+					"actions": []
+				}
+			},{
+				"key": "touch",
+				"actions": {
+					"actions": []
+				}
+			},{
+				"key": "momentary",
+				"actions": {
+					"actions": []
+				}
+			},{
+				"key": "color",
+				"actions": {
+					"actions": []
+				}
+			}],
+			"ui": {
+				"minValue": 0.0,
+				"lyP": 0.0,
+				"lheight": 0,
+				"vsc": 0,
+				"uuid": "e12117f6-a868-4c93-b57c-d7ac147b6a55",
+				"posX": 0.00625,
+				"tSizeDp": 13,
+				"pxP": 0.0,
+				"textFormat": 0,
+				"pheight": 0,
+				"v": 2,
+				"pwidth": 0,
+				"px": 0,
+				"posY": 0.17500001,
+				"label": "[label]",
+				"lx": 0,
+				"ly": 0,
+				"type": "btn",
+				"py": 0,
+				"sClass": "red",
+				"pheightP": 0.0,
+				"behave": 0,
+				"height": 0.074999996,
+				"pwidthP": 0.0,
+				"showLabel": true,
+				"lxP": 0.0,
+				"tpos": 0,
+				"lwidth": 0,
+				"lwidthP": 0.0,
+				"locked": false,
+				"pyP": 0.0,
+				"width": 0.05,
+				"margin": 1,
+				"maxValue": 1.0,
+				"lheightP": 0.0
+			}
+		},{
+			"actionSlots": [{
+				"key": "click",
+				"actions": {
+					"actions": {
+						"enable": true,
+						"boolMode": 0,
+						"key": "mutegroup",
+						"uuid": "c946bb98-4e00-4fd0-b5d8-604541ed3885",
+						"col": -1,
+						"invertOutput": false,
+						"mgrp": 3,
+						"lo": null
+					}
+				}
+			},{
+				"key": "longClick",
+				"actions": {
+					"actions": []
+				}
+			},{
+				"key": "touch",
+				"actions": {
+					"actions": []
+				}
+			},{
+				"key": "momentary",
+				"actions": {
+					"actions": []
+				}
+			},{
+				"key": "color",
+				"actions": {
+					"actions": []
+				}
+			}],
+			"ui": {
+				"minValue": 0.0,
+				"lyP": 0.0,
+				"lheight": 0,
+				"vsc": 0,
+				"uuid": "212902c9-5a5c-4277-ae14-fd6aaa337605",
+				"posX": 0.05625,
+				"tSizeDp": 13,
+				"pxP": 0.0,
+				"textFormat": 0,
+				"pheight": 0,
+				"v": 2,
+				"pwidth": 0,
+				"px": 0,
+				"posY": 0.17500001,
+				"label": "[label]",
+				"lx": 0,
+				"ly": 0,
+				"type": "btn",
+				"py": 0,
+				"sClass": "red",
+				"pheightP": 0.0,
+				"behave": 0,
+				"height": 0.074999996,
+				"pwidthP": 0.0,
+				"showLabel": true,
+				"lxP": 0.0,
+				"tpos": 0,
+				"lwidth": 0,
+				"lwidthP": 0.0,
+				"locked": false,
+				"pyP": 0.0,
+				"width": 0.05,
+				"margin": 1,
+				"maxValue": 1.0,
+				"lheightP": 0.0
+			}
+		}]
+	},
+	"themes": {
+		"uiType": "Custom-0",
+		"name": "Custom-0",
+		"cssSel": "fad7eabd-8501-4f78-91c0-0fbb08905c03",
+		"css": ".fad7eabd-8501-4f78-91c0-0fbb08905c03 {\n\tbackground-color: rgb(46, 47, 56, 0.00);\n\tborder-color: #474653;\n\tborder-radius: 5.00;\n\tborder-width: 2.00;\n\tcolor: #e5e5e5;\n\tctx-indicator-color: #858585;\n}\n\n.fad7eabd-8501-4f78-91c0-0fbb08905c03:hover {\n\tbackground-color: #3e3f49;\n\tborder-color: #56e541;\n}\n\n.fad7eabd-8501-4f78-91c0-0fbb08905c03:disabled {\n\tcolor: #8c8c8c;\n}\n\n.enabled.fad7eabd-8501-4f78-91c0-0fbb08905c03 {\n\tbackground-color: #2f2f2f #232323;\n\tborder-color: #36d71d;\n\tborder-radius: 5.00;\n\tborder-width: 2.00;\n\tcolor: #ffffff;\n\tctx-indicator-color: #858585;\n}\n\n.enabled.fad7eabd-8501-4f78-91c0-0fbb08905c03:hover {\n\tbackground-color: #1c1c1c;\n\tborder-color: #009600;\n}\n\n.enabled.fad7eabd-8501-4f78-91c0-0fbb08905c03:disabled {\n\tbackground-color: #33333a;\n\tcolor: #8c8c8c;\n}\n\n"
+	}
+}

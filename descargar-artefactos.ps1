@@ -22,10 +22,10 @@ function Download-DirectFile($url, $outFile) {
     Write-Host "Completado: $outFile (SHA256: $hash)"
 }
 
-$recDir = "c:\xampp\htdocs\Actualiza Tablets Lenovo\firmware\recovery"
-$romDir = "c:\xampp\htdocs\Actualiza Tablets Lenovo\firmware\rom"
-$toolsDir = "c:\xampp\htdocs\Actualiza Tablets Lenovo\firmware"
-$gappsDir = "c:\xampp\htdocs\Actualiza Tablets Lenovo\firmware\gapps"
+$recDir = Join-Path $PSScriptRoot "firmware\recovery"
+$romDir = Join-Path $PSScriptRoot "firmware\rom"
+$toolsDir = Join-Path $PSScriptRoot "firmware"
+$gappsDir = Join-Path $PSScriptRoot "firmware\gapps"
 
 # 1. Lineage Recovery mimbre
 Download-DirectFile "https://downloads.sourceforge.net/project/lenovo-yoga-tab-3-builds/Lineage%2017/recovery-mimbre.img" (Join-Path $recDir "recovery-mimbre.img")

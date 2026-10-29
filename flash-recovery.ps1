@@ -1,6 +1,6 @@
-$adb = "c:\xampp\htdocs\Actualiza Tablets Lenovo\tools\platform-tools\adb.exe"
-$fb = "c:\xampp\htdocs\Actualiza Tablets Lenovo\tools\platform-tools\fastboot.exe"
-$rec = "c:\xampp\htdocs\Actualiza Tablets Lenovo\firmware\recovery\recovery-mimbre.img"
+$adb = Join-Path $PSScriptRoot "tools\platform-tools\adb.exe"
+$fb = Join-Path $PSScriptRoot "tools\platform-tools\fastboot.exe"
+$rec = Join-Path $PSScriptRoot "firmware\recovery\recovery-mimbre.img"
 
 Write-Host "Reiniciando tablet a modo Bootloader..."
 & $adb reboot bootloader

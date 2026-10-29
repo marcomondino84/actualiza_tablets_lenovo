@@ -1,0 +1,421 @@
+{
+	"modelVersion" ["1"]
+	"layouts" [
+		{
+			"password" []
+			"ignoreOrientation" ["false"]
+			"pItems" [
+				{
+					"ui" {
+						"pheightP" ["0.59999996"]
+						"minValue" ["0.0"]
+						"lyP" ["0.0"]
+						"visibleChannels" ["-1"]
+						"vsc" ["0"]
+						"posX" ["0.0"]
+						"height" ["0.59999996"]
+						"pwidthP" ["0.55"]
+						"layerOffset" ["0"]
+						"pxP" ["0.0"]
+						"lxP" ["0.0"]
+						"v" ["2"]
+						"lwidthP" ["0.80625"]
+						"posY" ["0.0"]
+						"label" [""]
+						"locked" ["false"]
+						"pyP" ["0.0"]
+						"width" ["0.55"]
+						"margin" ["0"]
+						"maxValue" ["1.0"]
+						"lheightP" ["1.0"]
+						"type" ["mixer"]
+					}
+					"actions" {
+						"actions" []
+					}
+				}
+				{
+					"ui" {
+						"pheightP" ["0.09999999"]
+						"minValue" ["0.0"]
+						"lyP" ["0.0"]
+						"vsc" ["0"]
+						"posX" ["0.0"]
+						"height" ["0.09999999"]
+						"pwidthP" ["0.475"]
+						"pxP" ["0.0"]
+						"lxP" ["0.80967283"]
+						"v" ["2"]
+						"lwidthP" ["0.09375"]
+						"posY" ["0.0"]
+						"label" [""]
+						"locked" ["false"]
+						"pyP" ["0.0"]
+						"width" ["0.475"]
+						"margin" ["0"]
+						"maxValue" ["1.0"]
+						"lheightP" ["1.0"]
+						"type" ["sofBar"]
+					}
+					"actions" {
+						"actions" []
+					}
+				}
+				{
+					"ui" {
+						"pheightP" ["0.09999999"]
+						"minValue" ["0.0"]
+						"lyP" ["0.0"]
+						"vsc" ["0"]
+						"posX" ["0.0"]
+						"height" ["0.09999999"]
+						"pwidthP" ["0.475"]
+						"pxP" ["0.0"]
+						"lxP" ["0.9063965"]
+						"v" ["2"]
+						"lwidthP" ["0.09375"]
+						"posY" ["0.0"]
+						"label" [""]
+						"locked" ["false"]
+						"pyP" ["0.0"]
+						"width" ["0.475"]
+						"margin" ["0"]
+						"maxValue" ["1.0"]
+						"lheightP" ["1.0"]
+						"type" ["layerBar"]
+					}
+					"actions" {
+						"actions" []
+					}
+				}
+				{
+					"ui" {
+						"pheightP" ["0.09999999"]
+						"minValue" ["0.0"]
+						"lyP" ["0.7875"]
+						"behave" ["0"]
+						"vsc" ["0"]
+						"style" ["0"]
+						"posX" ["0.5"]
+						"height" ["0.09999999"]
+						"pwidthP" ["0.1"]
+						"showLabel" ["true"]
+						"pxP" ["0.5"]
+						"lxP" ["0.91875"]
+						"v" ["2"]
+						"lwidthP" ["0.06875"]
+						"posY" ["0.5"]
+						"label" ["TAP DELAY"]
+						"locked" ["false"]
+						"pyP" ["0.5"]
+						"width" ["0.1"]
+						"margin" ["1"]
+						"maxValue" ["1.0"]
+						"lheightP" ["0.1125"]
+						"type" ["btn"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"enable" ["true"]
+								"boolMode" ["0"]
+								"val" ["-1"]
+								"key" ["fx"]
+								"invertOutput" ["false"]
+								"rack" ["1"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"pheightP" ["0.050000004"]
+						"minValue" ["0.0"]
+						"lyP" ["0.9"]
+						"vsc" ["0"]
+						"posX" ["0.5"]
+						"height" ["0.050000004"]
+						"pwidthP" ["0.1"]
+						"pxP" ["0.5"]
+						"textFormat" ["0"]
+						"lxP" ["0.90625"]
+						"tpos" ["0"]
+						"v" ["2"]
+						"lwidthP" ["0.09375"]
+						"tSize" ["2"]
+						"posY" ["0.5"]
+						"label" ["[value]"]
+						"locked" ["false"]
+						"pyP" ["0.5"]
+						"width" ["0.1"]
+						"margin" ["0"]
+						"maxValue" ["1.0"]
+						"lheightP" ["0.062499993"]
+						"type" ["lbl"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"enable" ["true"]
+								"boolMode" ["0"]
+								"val" ["1"]
+								"key" ["fx"]
+								"invertOutput" ["false"]
+								"rack" ["2"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"pheightP" ["0.09999999"]
+						"minValue" ["0.0"]
+						"lyP" ["0.7"]
+						"behave" ["0"]
+						"vsc" ["0"]
+						"style" ["0"]
+						"posX" ["0.5"]
+						"height" ["0.09999999"]
+						"pwidthP" ["0.1"]
+						"showLabel" ["true"]
+						"pxP" ["0.5"]
+						"lxP" ["0.91875"]
+						"v" ["2"]
+						"lwidthP" ["0.06875"]
+						"posY" ["0.5"]
+						"label" ["ST DL"]
+						"locked" ["false"]
+						"pyP" ["0.5"]
+						"width" ["0.1"]
+						"margin" ["1"]
+						"maxValue" ["1.0"]
+						"lheightP" ["0.074999996"]
+						"type" ["btn"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"enable" ["true"]
+								"boolMode" ["0"]
+								"id" ["fx"]
+								"key" ["openView"]
+								"invertOutput" ["false"]
+								"appLink" ["false"]
+								"param" ["3"]
+							}
+							]
+					}
+				}
+				]
+			"id" ["userLayout-0"]
+			"behavior" ["1"]
+			"name" ["Mixer"]
+			"gridSize" ["4"]
+			"orientation" ["1"]
+			"showMixerMenu" ["false"]
+			"lItems" [
+				{
+					"ui" {
+						"pheightP" ["0.59999996"]
+						"minValue" ["0.0"]
+						"lyP" ["0.0"]
+						"visibleChannels" ["-1"]
+						"vsc" ["0"]
+						"posX" ["0.0"]
+						"height" ["1.0"]
+						"pwidthP" ["0.55"]
+						"layerOffset" ["0"]
+						"pxP" ["0.0"]
+						"lxP" ["0.0"]
+						"v" ["2"]
+						"lwidthP" ["0.80625"]
+						"posY" ["0.0"]
+						"label" [""]
+						"locked" ["false"]
+						"pyP" ["0.0"]
+						"width" ["0.80625"]
+						"margin" ["0"]
+						"maxValue" ["1.0"]
+						"lheightP" ["1.0"]
+						"type" ["mixer"]
+					}
+					"actions" {
+						"actions" []
+					}
+				}
+				{
+					"ui" {
+						"pheightP" ["0.09999999"]
+						"minValue" ["0.0"]
+						"lyP" ["0.0"]
+						"vsc" ["0"]
+						"posX" ["0.80967283"]
+						"height" ["1.0"]
+						"pwidthP" ["0.475"]
+						"pxP" ["0.0"]
+						"lxP" ["0.80967283"]
+						"v" ["2"]
+						"lwidthP" ["0.09375"]
+						"posY" ["0.0"]
+						"label" [""]
+						"locked" ["false"]
+						"pyP" ["0.0"]
+						"width" ["0.09375"]
+						"margin" ["0"]
+						"maxValue" ["1.0"]
+						"lheightP" ["1.0"]
+						"type" ["sofBar"]
+					}
+					"actions" {
+						"actions" []
+					}
+				}
+				{
+					"ui" {
+						"pheightP" ["0.09999999"]
+						"minValue" ["0.0"]
+						"lyP" ["0.0"]
+						"vsc" ["0"]
+						"posX" ["0.9063965"]
+						"height" ["1.0"]
+						"pwidthP" ["0.475"]
+						"pxP" ["0.0"]
+						"lxP" ["0.9063965"]
+						"v" ["2"]
+						"lwidthP" ["0.09375"]
+						"posY" ["0.0"]
+						"label" [""]
+						"locked" ["false"]
+						"pyP" ["0.0"]
+						"width" ["0.09375"]
+						"margin" ["0"]
+						"maxValue" ["1.0"]
+						"lheightP" ["1.0"]
+						"type" ["layerBar"]
+					}
+					"actions" {
+						"actions" []
+					}
+				}
+				{
+					"ui" {
+						"pheightP" ["0.09999999"]
+						"minValue" ["0.0"]
+						"lyP" ["0.7875"]
+						"behave" ["0"]
+						"vsc" ["0"]
+						"style" ["0"]
+						"posX" ["0.91875"]
+						"height" ["0.1125"]
+						"pwidthP" ["0.1"]
+						"showLabel" ["true"]
+						"pxP" ["0.5"]
+						"lxP" ["0.91875"]
+						"v" ["2"]
+						"lwidthP" ["0.06875"]
+						"posY" ["0.7875"]
+						"label" ["TAP DELAY"]
+						"locked" ["false"]
+						"pyP" ["0.5"]
+						"width" ["0.06875"]
+						"margin" ["1"]
+						"maxValue" ["1.0"]
+						"lheightP" ["0.1125"]
+						"type" ["btn"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"enable" ["true"]
+								"boolMode" ["0"]
+								"val" ["-1"]
+								"key" ["fx"]
+								"invertOutput" ["false"]
+								"rack" ["1"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"pheightP" ["0.050000004"]
+						"minValue" ["0.0"]
+						"lyP" ["0.9"]
+						"vsc" ["0"]
+						"posX" ["0.90625"]
+						"height" ["0.062499993"]
+						"pwidthP" ["0.1"]
+						"pxP" ["0.5"]
+						"textFormat" ["0"]
+						"lxP" ["0.90625"]
+						"tpos" ["0"]
+						"v" ["2"]
+						"lwidthP" ["0.09375"]
+						"tSize" ["2"]
+						"posY" ["0.9"]
+						"label" ["[value]"]
+						"locked" ["false"]
+						"pyP" ["0.5"]
+						"width" ["0.09375"]
+						"margin" ["0"]
+						"maxValue" ["1.0"]
+						"lheightP" ["0.062499993"]
+						"type" ["lbl"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"enable" ["true"]
+								"boolMode" ["0"]
+								"val" ["1"]
+								"key" ["fx"]
+								"invertOutput" ["false"]
+								"rack" ["2"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"pheightP" ["0.09999999"]
+						"minValue" ["0.0"]
+						"lyP" ["0.7"]
+						"behave" ["0"]
+						"vsc" ["0"]
+						"style" ["0"]
+						"posX" ["0.91875"]
+						"height" ["0.074999996"]
+						"pwidthP" ["0.1"]
+						"showLabel" ["true"]
+						"pxP" ["0.5"]
+						"lxP" ["0.91875"]
+						"v" ["2"]
+						"lwidthP" ["0.06875"]
+						"posY" ["0.7"]
+						"label" ["ST DL"]
+						"locked" ["false"]
+						"pyP" ["0.5"]
+						"width" ["0.06875"]
+						"margin" ["1"]
+						"maxValue" ["1.0"]
+						"lheightP" ["0.074999996"]
+						"type" ["btn"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"enable" ["true"]
+								"boolMode" ["0"]
+								"id" ["fx"]
+								"key" ["openView"]
+								"invertOutput" ["false"]
+								"appLink" ["false"]
+								"param" ["3"]
+							}
+							]
+					}
+				}
+				]
+		}
+		]
+}

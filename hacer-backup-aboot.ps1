@@ -1,5 +1,5 @@
-$adb = "c:\xampp\htdocs\Actualiza Tablets Lenovo\tools\platform-tools\adb.exe"
-$backupDir = "c:\xampp\htdocs\Actualiza Tablets Lenovo\firmware\backups"
+$adb = Join-Path $PSScriptRoot "tools\platform-tools\adb.exe"
+$backupDir = Join-Path $PSScriptRoot "firmware\backups"
 
 Write-Host "Buscando la particion aboot..."
 $abootPath = (& $adb shell "ls /dev/block/bootdevice/by-name/aboot 2>/dev/null || ls /dev/block/by-name/aboot 2>/dev/null").Trim()

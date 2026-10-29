@@ -1,4 +1,4 @@
-$adb = "c:\xampp\htdocs\Actualiza Tablets Lenovo\tools\platform-tools\adb.exe"
+$adb = Join-Path $PSScriptRoot "tools\platform-tools\adb.exe"
 
 Write-Host "Aplicando el parche al aboot en la tablet..."
 $applyOut = & $adb shell "/tmp/patch-aboot.sh"
