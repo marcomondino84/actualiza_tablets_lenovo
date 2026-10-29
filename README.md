@@ -80,3 +80,4 @@ menu.bat
 1. **Nunca usar `FORCE=1` ni saltear el backup de `aboot`**: Si el bootloader se corrompe sin backup, la tablet queda irrecuperable.
 2. **`Enable ADB` en Lineage Recovery**: Si el recovery muestra `unauthorized`, ir a `Advanced -> Enable ADB` (es runtime-only).
 3. **Instalación de GApps**: Debe realizarse **inmediatamente después del sideload de la ROM, sin reiniciar el sistema entre medio**. En la pantalla de verificación tocar `Volumen Abajo -> Yes -> Power`.
+
