@@ -11,8 +11,7 @@ Al procesar una nueva tablet Lenovo Yoga Tab 3 (YT3-X50F / mimbre):
 7. **Fase 6:** Sideload ROM LineageOS 17.1.
 8. **Fase 7:** Sideload MindTheGapps 10.0.
 9. **Fase 8:** Reiniciar sistema y verificar hardware (ADB).
-10. **Fase 9:** Restaurar / instalar apps requeridas (ej. Mixing Station y sus presets).
-11. **Fase 10 (OBLIGATORIA - Optimización Android 10):**
+10. **Fase 10 (OBLIGATORIA - Optimización Android 10):**
     Ejecutar siempre el proceso de optimización (`scripts\07-optimizar-sistema.bat` o skill `optimizacion-android10`):
     - Animaciones en 0.
     - Densidad a 213 dpi.

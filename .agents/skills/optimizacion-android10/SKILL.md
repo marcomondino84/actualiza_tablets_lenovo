@@ -11,7 +11,6 @@ Este skill define el procedimiento estándar y automatizado de optimización par
 Siempre después de:
 1. Flashear ROM LineageOS 17.1 y GApps.
 2. Iniciar el sistema y verificar hardware (Fase 8).
-3. Restaurar o instalar aplicaciones necesarias (Mixing Station, etc.).
 
 ## Ejecución Automatizada
 El script está disponible en:
