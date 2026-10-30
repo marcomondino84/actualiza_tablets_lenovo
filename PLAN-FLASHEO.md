@@ -14,7 +14,7 @@
 - **Lineage Recovery:** Escrito en partición `recovery`
 - **ROM Instalada:** `lineage-17.1-20260816-UNOFFICIAL-mimbre.zip` (Transferencia 1.00x)
 - **GApps Instaladas:** `MindTheGapps-10.0.0-arm-20230922_081033.zip` (Transferencia 1.00x)
-- **Mixing Station:** Reinstalada (APK base) y datos/layouts para consola X18 restaurados al 100%.
+
 
 ---
 
