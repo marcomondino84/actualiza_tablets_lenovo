@@ -16,6 +16,7 @@ echo   [3] Fase 4: Flashear Recovery definitivo (Lineage Recovery)
 echo   [4] Fase 6: Flashear ROM LineageOS (ADB Sideload)
 echo   [5] Fase 7: Flashear GApps (ADB Sideload)
 echo   [6] Fase 8: Test y Verificacion de Hardware (ADB)
+echo   [7] Fase 10: Optimizar Sistema Android 10 (Animaciones, Densidad, Bloatware)
 echo.
 echo   [D] Ver Dispositivos conectados (adb devices / fastboot devices)
 echo   [S] Abrir linea de comandos ADB Shell
@@ -32,6 +33,7 @@ if /i "%OPC%"=="3" call "%~dp0scripts\03-flashear-recovery.bat" & goto MENU
 if /i "%OPC%"=="4" call "%~dp0scripts\04-sideload-rom.bat" & goto MENU
 if /i "%OPC%"=="5" call "%~dp0scripts\05-sideload-gapps.bat" & goto MENU
 if /i "%OPC%"=="6" call "%~dp0scripts\06-verificar-hardware.bat" & goto MENU
+if /i "%OPC%"=="7" call "%~dp0scripts\07-optimizar-sistema.bat" & goto MENU
 
 if /i "%OPC%"=="D" (
     echo.

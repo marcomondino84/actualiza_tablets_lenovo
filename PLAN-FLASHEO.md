@@ -32,6 +32,7 @@
 | **7** | GApps | ¿GApps quedó completo? | `MindTheGapps-10.0.0-arm.zip` transferido e instalado OK | ✅ ABIERTA |
 | **8** | Hardware | ¿Todo el hardware responde? | Pantalla 800x1280, 4 núcleos, cámara trasera, batería, Play Store OK | ✅ ABIERTA |
 | **9** | Documentar | ¿Todo registrado y restaurado? | Documentación actualizada y backup restaurado | ✅ ABIERTA |
+| **10** | Optimización | ¿Animaciones, densidad y bloatware optimizados? | Animaciones 0x, densidad 213, paquetes google deshabilitados, Play Store restringida en background | ✅ DEFINIDA |
 
 ---
 

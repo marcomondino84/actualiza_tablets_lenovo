@@ -353,6 +353,68 @@ cámara (trasera); si aparecen dos, algo está mal.
 
 ---
 
+## Fase 10 — Optimización post-flasheo (Android 10) (riesgo: ninguno)
+
+Esta fase se ejecuta una vez que LineageOS 17.1 y GApps ya están instalados y el hardware verificado.
+Su objetivo es maximizar la fluidez, reducir consumo de RAM y batería en este procesador (Snapdragon 210 / MSM8909 con 1GB/2GB RAM).
+
+### 1. Medición de Baseline (Estado Inicial)
+```bash
+adb shell cat /proc/meminfo | grep -E "MemTotal|MemFree|MemAvailable|Cached|SwapTotal|SwapFree"
+adb shell cat /proc/swaps
+adb shell uptime
+adb shell wm size
+adb shell wm density
+adb shell pm list packages | wc -l
+adb shell df -h /data
+```
+
+### 2. Animaciones a 0 (o 0.5)
+Desactivar animaciones elimina el retardo de renderizado gráfico de la GPU/CPU:
+```bash
+adb shell settings put global window_animation_scale 0
+adb shell settings put global transition_animation_scale 0
+adb shell settings put global animator_duration_scale 0
+```
+
+### 3. Densidad de Pantalla a 213 dpi
+Mantiene el valor stock óptimo para paneles 800x1280 sin distorsión de elementos UI:
+```bash
+adb shell wm density 213
+```
+
+### 4. Desactivación de Telemetría y Paquetes Pesados
+Inhabilita servicios de Google en segundo plano que saturan la CPU/RAM:
+```bash
+adb shell pm disable-user --user 0 com.google.android.feedback
+adb shell pm disable-user --user 0 com.google.android.apps.pixelmigrate
+adb shell pm disable-user --user 0 com.google.android.googlequicksearchbox
+```
+
+### 5. Restricción en Segundo Plano para Google Play Store
+Evita escaneos y descargas espontáneas en segundo plano. Las apps se actualizan normalmente cuando el usuario abre la Play Store:
+```bash
+adb shell cmd appops set com.android.vending RUN_ANY_IN_BACKGROUND ignore
+```
+
+### 6. Qué NO hacer (y por qué)
+- **No tocar CPU Governor / Frecuencias**: Requiere root y puede generar inestabilidad térmica.
+- **No modificar ZRAM / Swappiness a mano**: La configuración por defecto del kernel LineageOS ya está ajustada para este SoC.
+- **No forzar fstrim manual ni tocar dm-verity**: Requiere privilegios root no disponibles / innecesarios.
+
+### 7. Puerta de Verificación Post-Optimización
+Comprobar que los valores quedaron aplicados:
+```bash
+adb shell settings get global window_animation_scale    # Retorna 0
+adb shell settings get global transition_animation_scale # Retorna 0
+adb shell settings get global animator_duration_scale   # Retorna 0
+adb shell wm density                                    # Retorna Physical: 800x1280 Override: 213
+adb shell pm list packages -d                           # Muestra feedback, pixelmigrate, googlequicksearchbox
+adb shell cmd appops get com.android.vending RUN_ANY_IN_BACKGROUND # Retorna ignore
+```
+
+---
+
 ## Tabla de IDs USB (para saber en qué modo está)
 
 | ID | Modo |
