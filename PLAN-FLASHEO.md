@@ -1,23 +1,24 @@
 # Plan y Registro de Flasheo — Tablets Lenovo
 
-## Dispositivo 4 (Sesión Actual: 30/10/2026)
-- **Número de Serie:** `4f5dccaf`
+## Dispositivo 5 (Sesión Actual: 17/11/2026)
+- **Número de Serie:** `4f2fcc21`
 - **Modelo Comercial:** Lenovo Yoga Tab 3 10.1" (YT3-X50F)
 - **Codename:** `mimbre` / MSM8909 (32-bit `armeabi-v7a`)
 - **Android Stock Base:** 6.0.1 Marshmallow (`YT3-X50F_S000120_170616_ROW`)
 - **Nueva ROM instalada:** LineageOS 17.1 (Android 10) con Google Play Store
 - **Estado Bootloader:** `Device unlocked: true`
 - **Aboot Stock SHA256 (Doble lectura idéntica):** `160ac7577e9d57404ab203a7c12fe9240f21b2e72de88caa964b323dca7f6ab8`
-- **Backup local en PC:** `firmware\backups\aboot-stock-4f5dccaf.img`
+- **Backup local en PC:** `firmware\backups\aboot-stock-4f2fcc21.img`
 - **Revisión reconocida por patcher v5:** `YT3-X50F user dump (attestation 2017-06-15)`
 - **Aboot Parcheado:** Parche aplicado y verificado en flash (DTB @ 0x82e00000 / Ramdisk @ 0x84000000)
 - **Lineage Recovery:** Escrito en partición `recovery`
 - **ROM Instalada:** `lineage-17.1-20260816-UNOFFICIAL-mimbre.zip` (Transferencia 1.00x)
 - **GApps Instaladas:** `MindTheGapps-10.0.0-arm-20230922_081033.zip` (Transferencia 1.00x)
+- **Acceso Directo:** "Encuesta Anónima" respaldada en `backups\encuesta_anonima\url.txt`
 
 ---
 
-## Puertas de Verificación (Dispositivo `4f5dccaf`)
+## Puertas de Verificación (Dispositivo `4f2fcc21`)
 
 | Puerta | Fase | Pregunta clave | Evidencia requerida | Estado |
 |---|---|---|---|---|
@@ -36,6 +37,12 @@
 ---
 
 ## Historial de Dispositivos Previos
+
+### Dispositivo 4 (Sesión 30/10/2026)
+- **Número de Serie:** `4f5dccaf`
+- **Modelo comercial:** Lenovo Yoga Tab 3 10.1" (YT3-X50F)
+- **Aboot Stock SHA256:** `160ac7577e9d57404ab203a7c12fe9240f21b2e72de88caa964b323dca7f6ab8`
+- **Estado:** 100% completado con LineageOS 17.1 + GApps + Optimización Android 10.
 
 ### Dispositivo 3 (Sesión 29/10/2026 - Tarde 2)
 - **Número de Serie:** `4f1accee`

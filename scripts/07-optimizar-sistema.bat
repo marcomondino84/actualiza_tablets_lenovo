@@ -30,16 +30,11 @@ adb shell wm density 213
 echo   - Densidad configurada a 213 dpi.
 echo.
 
-echo [4/5] Desactivando telemetria y paquetes innecesarios...
-adb shell pm disable-user --user 0 com.google.android.feedback
-adb shell pm disable-user --user 0 com.google.android.apps.pixelmigrate
-adb shell pm disable-user --user 0 com.google.android.googlequicksearchbox
-echo   - Paquetes de Google redundantes/telemetria desactivados.
-echo.
-
-echo [5/5] Restringiendo ejecucion en segundo plano de Google Play Store...
-adb shell cmd appops set com.android.vending RUN_ANY_IN_BACKGROUND ignore
-echo   - Play Store restringida en segundo plano (actualizaciones solo al abrirla).
+echo [4/5] Ajustando servicios de sistema...
+REM Mantenemos los paquetes y Play Store con permisos normales para descargas
+adb shell cmd appops set com.android.vending RUN_ANY_IN_BACKGROUND allow
+adb shell cmd appops set com.android.vending RUN_IN_BACKGROUND allow
+echo   - Play Store configurada con permisos completos de descarga.
 echo.
 
 echo ========================================================

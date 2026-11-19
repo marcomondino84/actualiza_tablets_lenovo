@@ -15,7 +15,6 @@ Al procesar una nueva tablet Lenovo Yoga Tab 3 (YT3-X50F / mimbre):
     Ejecutar siempre el proceso de optimización (`scripts\07-optimizar-sistema.bat` o skill `optimizacion-android10`):
     - Animaciones en 0.
     - Densidad a 213 dpi.
-    - Desactivar telemetría (`com.google.android.feedback`, `com.google.android.apps.pixelmigrate`, `com.google.android.googlequicksearchbox`).
-    - Restringir Play Store en segundo plano (`cmd appops set com.android.vending RUN_ANY_IN_BACKGROUND ignore`).
+    - Asegurar permisos completos de Play Store para descargas e instalación de apps de Google (Drive, Sheets, Docs, etc.).
     - Verificar aplicación de ajustes y registrar en `PLAN-FLASHEO.md`.
 
